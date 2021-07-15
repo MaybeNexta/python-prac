@@ -1,3 +1,5 @@
+
+
 import random
 
 random_list = [random.randrange(-100,100) for i in range(30)]
@@ -16,7 +18,6 @@ for element in random_list:
     if (element % 2) == 1:
         new_list.append(element)
     
-
 if len(new_list) == 0:
   print("\nthere isn't any of odd numbers")
 
